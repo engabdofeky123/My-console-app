@@ -1,0 +1,14 @@
+D:\.Net dev\Projects\CIS_Task\CIS_Task\bin\Debug\net9.0\CIS_Task.exe
+D:\.Net dev\Projects\CIS_Task\CIS_Task\bin\Debug\net9.0\CIS_Task.deps.json
+D:\.Net dev\Projects\CIS_Task\CIS_Task\bin\Debug\net9.0\CIS_Task.runtimeconfig.json
+D:\.Net dev\Projects\CIS_Task\CIS_Task\bin\Debug\net9.0\CIS_Task.dll
+D:\.Net dev\Projects\CIS_Task\CIS_Task\bin\Debug\net9.0\CIS_Task.pdb
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.AssemblyInfoInputs.cache
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.AssemblyInfo.cs
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.csproj.CoreCompileInputs.cache
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.dll
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\refint\CIS_Task.dll
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.pdb
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\CIS_Task.genruntimeconfig.cache
+D:\.Net dev\Projects\CIS_Task\CIS_Task\obj\Debug\net9.0\ref\CIS_Task.dll
