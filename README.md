@@ -1,50 +1,51 @@
-IceCity Heating Management
-Project Description
+# IceCity Heating Management
 
-This is a C# Console Application that simulates managing heating costs in IceCity during a severe ice storm.
+## Project Description
+This is a C# Console Application that simulates managing heating costs in IceCity during a severe ice storm.  
 The project focuses on:
 
-Managing houses and their heating usage.
+- Managing houses and their heating usage.
+- Calculating monthly heating costs using different strategies (Delegates).
+- Generating a detailed report using `StringBuilder`.
+- Demonstrating inheritance with `CatShelter` as a special type of house.
 
-Calculating monthly heating costs using different strategies (Delegates).
+**Note:** This simplified version does not include sensors or events.
 
-Generating a detailed report using StringBuilder.
+---
 
-Demonstrating inheritance with CatShelter as a special type of house.
+## Main Components
 
-Note: This simplified version does not include sensors or events.
+- **House**  
+  Represents a house with properties such as number of heaters, hours per day, and outside temperature.
 
-Main Components
+- **CatShelter**  
+  Inherits from `House` and adds a `CatName` property.
 
-House: Represents a house with properties such as number of heaters, hours per day, and outside temperature.
+- **IHouseRepository / InMemoryHouseRepository**  
+  Stores houses in memory.
 
-CatShelter: Inherits from House and adds a CatName property.
+- **BillingService**  
+  Calculates monthly heating costs for all houses and supports multiple cost strategies.
 
-IHouseRepository / InMemoryHouseRepository: Stores houses in memory.
+- **CostStrategies**  
+  Provides different strategies for cost calculation using Delegates.
 
-BillingService: Calculates monthly heating costs for all houses, supporting different cost strategies.
+- **EmptyClass.cs**  
+  A placeholder empty class as required for GitHub submission.
 
-CostStrategies: Provides different strategies for cost calculation using Delegates.
+---
 
-EmptyClass.cs: A placeholder empty class as required for GitHub submission.
+## How to Run
 
-How to Run
-
-Open the project in any C# IDE (Visual Studio, VS Code, etc.).
-Ensure all files are included:
-Program.cs
-House.cs
-CatShelter.cs
-IHouseRepository.cs
-
-InMemoryHouseRepository.cs
-
-BillingService.cs
-
-CostStrategies.cs
-
-EmptyClass.cs
-
-Run the project.
-
-The console will display the heating cost report for all houses.
+1. Open the project in any C# IDE (Visual Studio, VS Code, etc.).
+2. Ensure all required files are included:
+   - `Program.cs`
+   - `House.cs`
+   - `CatShelter.cs`
+   - `IHouseRepository.cs`
+   - `InMemoryHouseRepository.cs`
+   - `BillingService.cs`
+   - `CostStrategies.cs`
+   - `EmptyClass.cs`
+3. Run the project.
+4. The console will display the heating cost report for all houses.
